@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+    int rojo, verde, azul;
+
+    printf("mira un color.\n");
+    printf("tu color tiene rojo (1=si/0=no) ?");
+    scanf(" %i", &rojo);
+
+    if (rojo ==1)
+	print("tu estas viendo rojo, true and.\n");
+    else
+	printf("no ves rojo\n");
+
+    return EXIT_SUCCESS;
+}
